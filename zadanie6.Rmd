@@ -60,7 +60,7 @@ ggplot (data = mpg) +
 ```
 
 
-```{r echo=FALSE}
+```{r echo = FALSE}
 library(tidyverse)
 ggplot (data = mpg, aes(x = class, y = displ)) +
   geom_boxplot() +
@@ -70,7 +70,7 @@ ggplot (data = mpg, aes(x = class, y = displ)) +
 
 ```{r echo=FALSE}
 library(tidyverse)
-sto_diam <- diamonds[sample(nrow(diamonds), 100),]
+sto_diam <- diamonds[sample(nrow(diamonds), 100)]
 ```
 
 
